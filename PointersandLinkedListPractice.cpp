@@ -12,20 +12,20 @@ int main() {
 
     cout << "\n Welcome " << userInput << "! " << endl;
 
-    int n = 5;
+    int num1 = 5;
     cout << "\n" << &n << endl;
 
-    int* ptr = &n;
+    int* ptr = &num1;
     cout << ptr << endl;
     cout << *ptr << endl;
     *ptr = 10;
     cout << *ptr << endl;
-    cout << n << endl;
+    cout << num1 << endl;
 
-    int v;
+    int num2;
     int* ptr2 =&v;
     *ptr2 =7;
-    cout << "v= " << v << endl;
+    cout << "num2= " << num2 << endl;
 
 
 
